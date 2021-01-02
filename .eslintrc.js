@@ -10,5 +10,12 @@ module.exports = {
   },
   rules: {
     'linebreak-style': ['error', 'windows'],
+    'no-restricted-imports': ['error', 'fs'],
+    'import/extensions': [
+      'error',
+      {
+        js: 'ignorePackages',
+      },
+    ],
   },
 };
